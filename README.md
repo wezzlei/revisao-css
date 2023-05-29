@@ -2,5 +2,5 @@
 ##Exercício revisão fundamentos css
 
 ###Hierarquia e especificidade css
-!(imagem boa)[índice.png]
+![imagem boa](índice.png)
 revisão css básico
