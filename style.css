@@ -35,9 +35,10 @@ P{
 }
 /* usar sinal de maior">"para filhos diretos */
 /* usar espaço para todos os decendentes "netos" */
-.fundo-verde p
-{
+.fundo-verde 
+p{
 color: yellow;
+transition: all 2s ease;
 }
 
 .fundo-verde :hover
