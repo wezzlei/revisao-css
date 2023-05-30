@@ -1,0 +1,65 @@
+body
+{
+    margin-left: 40px;
+    color: #00ff88;
+    font-size: 40px;
+}
+P{
+    COLOR: #FF0000;
+}
+.propaganda
+{
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+    
+}
+
+.titulo-do-body
+{
+    font-size: 30px;
+    color:#fc0fc0;
+   
+}
+#identificador-unico
+{
+   
+    font-size: 25px;
+    color:#fc0fc0;
+}
+
+.fundo-verde
+{
+    color: yellow;
+    background-color: #00ff88;
+}
+/* usar sinal de maior">"para filhos diretos */
+/* usar espaço para todos os decendentes "netos" */
+.fundo-verde p
+{
+color: yellow;
+}
+
+.fundo-verde :hover
+{
+background-color: #0000ff;
+}
+/* PSEUDO ELEMENTOS SÃO UTILIZADOS PARA ADICIONAR DIFERENTES EFEITOS A UM SELETOR,OU PARTE DE UM SELETOR */
+.fundo-verde::before
+{
+color:#993399;
+content: "Este texto foi aplicado antes do elemento do html pois foi criado no css sendo um pseudoelemento.";
+}
+
+.fundo-verde::after
+{
+color: #9400d3;
+content: "Este texto foi aplicado DEPOIS do elemento do html pois foi criado no css sendo um pseudoelemento.";
+}
+/* AGORA USAREMOS A COMBINAÇÃO DE UM PSEUDO-ELEMENTO ".FUNDO-VERDE::AFTER" COM UMA PSEUDO-CLASSE ":HOVER" */
+
+.fundo-verde:hover::after
+{
+ height: 50px;
+ background-color: red;
+}
